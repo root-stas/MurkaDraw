@@ -129,13 +129,13 @@ public class MainSrc : MonoBehaviour
     void Start()
     {
         //Сбор всех необходимых компонентов из сцены
-        Cursor = GameObject.FindGameObjectWithTag("Cursor").transform;
-        MenuUI = GameObject.FindGameObjectWithTag("MenuUI");
-        GameUI = GameObject.FindGameObjectWithTag("GameUI");
-        EditorUI = GameObject.FindGameObjectWithTag("EditorUI");
-        DialogUI = GameObject.FindGameObjectWithTag("FailUI");
-        TimeTxT = GameObject.FindGameObjectWithTag("TimeTxT").GetComponent<Text>() as Text;
-        ScoreTxT = GameObject.FindGameObjectWithTag("ScoreTxT").GetComponent<Text>() as Text;
+        Cursor = GameObject.Find("CursorFX").transform;
+        MenuUI = GameObject.Find("Menu");
+        GameUI = GameObject.Find("Game");
+        EditorUI = GameObject.Find("Editor");
+        DialogUI = GameObject.Find("Fail");
+        TimeTxT = GameObject.Find("TimeTxt").GetComponent<Text>() as Text;
+        ScoreTxT = GameObject.Find("ScoreTxt").GetComponent<Text>() as Text;
 
         //Создание объектов отображающих фигуры
         GameObject LineObj = Instantiate(Resources.Load("Prefabs/ShapeLine", typeof(GameObject))) as GameObject;
