@@ -4,6 +4,12 @@
 ##В соответствии с техническим заданием (ТЗ) (файл [PRD](PRD.pdf)) была разработана игра MurkaDraw.
 
 В папке [Bin](Bin) лежат архивы собранной игры под разные ОС.
+    
+[Windows 32-bit](Bin/Win32.7zip)
+
+[Windows 64-bit](Bin/Win64.7zip)
+    
+[MacOS X Universal](Bin/MacOS_Univ.7zip)
 
 ##Игровой процесс:
 
