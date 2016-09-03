@@ -5,11 +5,11 @@
 
 В папке [Bin](Bin) лежат архивы собранной игры под разные ОС.
     
-[Windows 32-bit](Bin/Win32.7zip)
+[Windows 32-bit](Bin/Win32.7z)
 
-[Windows 64-bit](Bin/Win64.7zip)
+[Windows 64-bit](Bin/Win64.7z)
     
-[MacOS X Universal](Bin/MacOS_Univ.7zip)
+[MacOS X Universal](Bin/MacOS_Univ.7z)
 
 ##Игровой процесс:
 
